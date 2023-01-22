@@ -12,12 +12,13 @@ body {
     text-align: center;
     margin: auto;
     background-image: url("cat.png");
-    background-repeat: repeat-y;
+    background-repeat: repeat-y, repeat-x;
 }
 
 p {
     font-family: 'Roman', sans-serif;
     font-size: 25px;
+    background-color: white;
 }
 
 h1 {
