@@ -12,7 +12,7 @@ body {
     text-align: center;
     margin: auto;
     background-image: url("cat.png");
-    background-repeat: repeat-y, repeat-x;
+    background-repeat: repeat;
 }
 
 p {
