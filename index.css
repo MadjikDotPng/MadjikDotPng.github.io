@@ -21,8 +21,13 @@ p {
     background-color: white;
 }
 
+a {
+    background-color: white;
+}
+
 h1 {
     font-family: 'Sans', sans-serif;
+    background-color: white;
 }
 
 
