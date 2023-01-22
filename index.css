@@ -11,6 +11,8 @@
 body {
     text-align: center;
     margin: auto;
+    background-image: url("cat.png");
+    background-repeat: repeat-y;
 }
 
 p {
@@ -21,3 +23,5 @@ p {
 h1 {
     font-family: 'Sans', sans-serif;
 }
+
+
