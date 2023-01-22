@@ -1,0 +1,239 @@
+/* START OF CSS RESETS*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video, input{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	color: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* END OF CSS RESETS*/
+
+/* START OF TOP NAV STYLING*/
+.top-nav {
+	position: fixed;
+	top: 16px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	border-radius: 4px;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(72,72,72,1);
+		 -moz-box-shadow: 0px 1px 4px 0px rgba(72,72,72,1);
+					box-shadow: 0px 1px 4px 0px rgba(72,72,72,1);
+}
+.top-nav > ul {
+	width: 980px;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+.top-nav li {
+	flex: 1;
+	z-index: 3;
+	background:
+	  -o-linear-gradient(left, rgba(182,182,182,.6) 0 1px, transparent 0),
+	  -o-linear-gradient(right, rgba(0, 0, 0, .5) 0 0.5px, rgba(137,137,137,.425) 1.5px 2px, transparent 0 100%),
+	  -o-linear-gradient(top, #8f8f8f 0, #6f6f6f 50%, #696969,#5d5d5d 50%, #888 100%);
+	background:
+	  linear-gradient(to right, rgba(182,182,182,.6) 0 1px, transparent 0),
+	  linear-gradient(to left, rgba(0, 0, 0, .5) 0 0.5px, rgba(137,137,137,.425) 1.5px 2px, transparent 0 100%),
+	  linear-gradient(to bottom, rgba(0,0,0, .2) 0 0, transparent 5% 95%, rgba(0,0,0, .4) 100% 100%),
+	  linear-gradient(to bottom, #8f8f8f 0, #6f6f6f 50%, #696969,#5d5d5d 50%, #888 100%);
+}
+.logo img {
+	width: 26px;
+	display: block;
+	margin: 0 auto; 
+	padding-top: 4px; 
+}
+.top-nav a {
+	z-index: 5;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	text-shadow:
+		0 -1.075px 0 rgba(0, 0, 0, .5),
+		0 1.075px 0 rgba(0, 0, 0, .17);
+	display: block;
+	width: 100%;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	text-decoration: none;
+	color: #fff;
+}
+.top-nav a:hover {
+	background: rgba(0,0,0,.4);
+}
+li.search-box {
+	padding: 8px 13px;
+}
+.search-box form {
+	border-radius: 50px;
+	overflow: hidden;
+	height: 19.5px;
+	position: relative;
+		-webkit-box-shadow: inset 0px 2px 1px 0px rgba(0,0,0,.6),
+												inset 0px -2px 1px 0 rgba( 105, 105, 105);
+		 -moz-box-shadow: inset 0px 2px 1px 0px rgba(0,0,0,.6),
+												inset 0px -2px 1px 0 rgba( 105, 105, 105);
+					box-shadow: inset 0px 2px 1px 0px rgba(0,0,0,.6),
+												inset 0px -1px 1px 0 rgba( 145, 145, 145);
+}
+.search-box input {
+	background: transparent;
+	font: 400 13.3333px Arial;
+	width: 106px;
+	outline: 0;
+	padding: 0 18px;
+	box-sizing: border-box;
+	height: 19.5px;
+	transition: .4s;
+}
+.search-box input:focus {
+	width: 150px;
+	background: #fff;
+}
+
+/* END OF TOP NAV STYLING*/
+
+/* START OF HEADER STYLING */
+header {
+	width: 1440px;
+	height: 660px;
+	box-sizing: border-box;
+	padding-top: 224px;
+	margin: 0 auto;
+	text-align: center;
+	background: url(img/your_verse_hero_2x.jpg) no-repeat bottom / cover;
+}
+.intro-wrapper {
+	color: #fff;
+	width: 820px;
+	margin:0 auto;
+}
+.intro-wrapper h1 {
+	margin-bottom: 20px;
+	font-size: 70px;
+}
+.intro-wrapper p {
+	margin-bottom: 36px;
+	line-height: 36px;
+	font-size: 30px;
+}
+.intro-wrapper span {
+	font-size: 24px;
+}
+.intro-wrapper span:hover {
+	text-decoration: underline;
+}
+/* END OF HEADER STYLING */
+/* START OF CONTENT LIST*/
+.content-list {
+	height: 200px;
+	width: 1440px;
+	margin: 2px auto 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.content-list li {
+	width: 358.5px; /* to leave gap */
+	height: 100%;
+	background-size: cover;
+}
+.content-list li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.content-list li:nth-child(1) {
+	background-image: url(img/promo_iphone5s_2x.jpg);
+}
+.content-list li:nth-child(2) {
+	background-image: url(img/promo_iphone5c_2x.jpg);
+}
+.content-list li:nth-child(3) {
+	background-image: url(img/promo_30_years_2x.jpg);
+}
+.content-list li:nth-child(4) {
+	background-image: url(img/promo_supplier_responsibility_2x.jpg);
+}
+/* END OF CONTENT LIST*/
+/* START OF FOOTER STYLING */
+footer {
+	width: 980px;
+	margin: 16px auto 0;
+	position: relative;
+}
+footer > * {
+	padding-top: 12px;
+}
+footer * {
+	font-size: 10px;
+	line-height: 1.2;
+	color: #666;
+}
+footer span {
+	display: block;
+}
+footer a {
+	color: #08c
+}
+footer a:hover {
+	text-decoration: underline;
+}
+.bottom-nav {
+	padding-top: 9.5px;
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	right: 0;
+}
+.bottom-nav > li {
+	padding: 2px 6px;
+	border-right: 1px solid #ccc;
+}
+/* END OF FOOTER STYLING */
