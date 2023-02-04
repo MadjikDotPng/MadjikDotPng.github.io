@@ -21,9 +21,6 @@ p {
     background-color: white;
 }
 
-eb {
-    font-size: 75px;
-}
 
 a {
     background-color: white;
@@ -32,6 +29,12 @@ a {
 h1 {
     font-family: 'Sans', sans-serif;
     background-color: white;
+}
+
+h2 {
+    font-family: 'Sans', sans-serif;
+    background-color: white;
+    font-size: 200px;
 }
 
 
