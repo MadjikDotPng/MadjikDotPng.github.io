@@ -1,75 +1,93 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Home</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="index.css">
-</head>
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
 
-<body>
-	<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-	<div class="container">
-		<nav class="top-nav">
-			<ul>
-				<li><a href="#" class="logo"><img src="img/apple-logo.png"></a></li>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#">ily scar</a></li>
-				<li class="search-box">
-					<form action="#" method="get">
-						<input type="text">
-					</form>
-				</li>
-			</ul>
-		</nav>
-		<header>
-			<div class="intro-wrapper">
-				<h1>Madjik's Portfolio</h1>
-				<p>
-					If you are from a college
-					please ignore the socials.
-					I post way too many memes.
-					lol
-				</p>
-				<span>
-					<a href="#">
-						Check out my
-						github!
-					</a>
-				</span>
-			</div>
-		</header>
-		<aside>
-			<ul class="content-list">
-				<li><a href="#">&nbsp;</a></li>
-				<li><a href="#">&nbsp;</a></li>
-				<li><a href="#">&nbsp;</a></li>
-				<li><a href="#">&nbsp;</a></li>
-			</ul>
-		</aside>
-		<footer>
-			<ul class="bottom-nav">
-				<li><a href="#">Site Map</a></li>
-				<li><a href="#">Hot News</a></li>
-				<li><a href="#">RSS Feeds</a></li>
-				<li><a href="#">Media Info</a></li>
-				<li><a href="#">Environment</a></li>
-				<li><a href="#">Job Opportunities</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
-			<span>Papa Johns sucks! Like and subscribe if you agree!</span>
-			<span>Copyright © 2023 Madjikware. All rights reserved. <a href="">Terms of Use</a> | <a href="">Privacy Policy</a></span>
-		</footer>
-	</div>
-</body>
+h1 {
+  margin: 0;
+}
 
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+    </style>
+  </head>
+  <body>
+    <div id="page-container">
+        <div id="content-wrap">
+    <header>
+      <h1>Welcome to my website</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>About Me</h2>
+      <p>Hi, my name is [insert name here] and I am a web developer.</p>
+      <p>This website was created using HTML and CSS.</p>
+    </main>
+    </div>
+    <footer id="footer">
+      <p>Copyright © 2023 My Website</p>
+    </footer>
+    </div>
+  </body>
 </html>
