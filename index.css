@@ -1,9 +1,15 @@
-body{
-	font-family:'Times New Roman', serif;
+@font-face {
+    font-family: roman;
+    src: url(/fonts/roman.ttf);
+}
+
+body {
+	font-family:roman;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	color:#000;
 	background:#BEA451;
   }
+
   .text-centre{
 	text-align:center;
   }
