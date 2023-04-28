@@ -15,7 +15,7 @@ body {
     margin: none !important;
 }
 
-#container {
+.container {
     border: 5px solid red;
     background-color: black;
     margin: auto;
