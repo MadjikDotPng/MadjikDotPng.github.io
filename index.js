@@ -29,3 +29,7 @@ class CopypasteKeyboard {
 		else keyEl?.classList.remove(activeClass);
 	}
 }
+
+function srt(url) {
+    window.location.replace(url);
+}
