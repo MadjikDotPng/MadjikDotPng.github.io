@@ -18,9 +18,10 @@ body {
 #container {
     border: 5px solid red;
     background-color: black;
-    width: 250x;
+    width: 100x;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
