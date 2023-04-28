@@ -18,8 +18,8 @@ body {
 #container {
     border: 5px solid red;
     background-color: black;
-    width: 100px !important;
-    margin: none;
+    margin: auto;
+    width: 50%;
 }
 
 a {
