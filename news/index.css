@@ -10,3 +10,7 @@ body {
     font-family: mono;
     color: white;
 }
+
+.title {
+    margin: none !important;
+}
