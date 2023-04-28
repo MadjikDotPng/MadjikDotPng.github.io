@@ -4,10 +4,10 @@
 }
 
 body {
-	font-family:roman;
+	font-family: 'Times New Roman', Times, serif;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	color:#000;
-	background:#BEA451;
+	background:#581313;
   }
 
   .text-centre{
@@ -19,6 +19,7 @@ body {
   }
   .picheader{
 	height:250px;
+	width: 1000px;
 	overflow:hidden;
   }
   header nav{
