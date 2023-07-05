@@ -1,0 +1,54 @@
+@font-face {
+	font-family: "Times";
+	src: url('fonts/roman.ttf');
+  }
+
+@font-face {
+	font-family: "Mono";
+	src: url('fonts/mono.ttf');
+  }
+
+body {
+	color: #000;
+	background-color: #fff;
+	overflow-x: hidden;
+}
+
+#logo {
+	width: 200px !important;
+	height: auto !important;
+}
+
+#header {
+	
+}
+
+.container {
+	margin: 0 auto;
+    overflow: hidden;
+	padding: 0 15px;
+    width: 960px;
+	background-image: url("img/bg.png");
+}
+
+#content {
+	float: right;
+	font-family: 'Times', serif;
+	font-size: 40px;
+	margin: 0;
+	top: 50%;
+	-ms-transform: translateY(-30%);
+	transform: translateY(-30%);
+	padding-right: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.cta {
+	font-family: 'Mono', monospace;
+	font-size: 100px;
+	line-height: 0.2;
+}
