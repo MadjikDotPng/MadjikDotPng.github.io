@@ -52,3 +52,20 @@ a {
 	font-size: 100px;
 	line-height: 0.2;
 }
+
+.noctura {
+	filter: brightness(0%);
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.nebula {
+	filter: invert(100%);
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 25px;
+}
