@@ -223,6 +223,7 @@ a {
 	margin-top: 40px;
 	color: #a5adcb;
     overflow-wrap: break-word;
+	font-family: "Times", sans-serif;
 }
 
 #bio > h1 {
