@@ -2,9 +2,9 @@ body {
     background: #000;
     color: #fff;
     font-family: "Times New Roman", Times, serif;
-}
-
-#container {
+  }
+  
+  #container {
     position: absolute;
     width: 500px;
     height: 400px;
@@ -14,19 +14,23 @@ body {
     margin: -100px 0 0 -200px;
     display: flex;
     line-height: 0.2;
-}
-
-.info {
+  }
+  
+  .info {
     width: 50%;
     
-}
-
-.dir {
+  }
+  
+  .dir {
     width: 50%;
     float: left;
-}
-
-a {
-    color: #a00;
+  }
+  
+  a {
+    color: #00a;
     text-decoration: underline;
-}
+  }
+  
+  .sub {
+    color: #aa0;
+  }
