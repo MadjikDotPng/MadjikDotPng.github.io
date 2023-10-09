@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="darkreader-lock">
+    <meta name="title" content="Dad Return Countdown - kxtzownsu">
+    <meta name="description" content="Simple countdown made in JS & HTML that counts down to the day your dad returns from Walmart with milk. Made by kxtzownsu :3">
+    <meta property="og:title" content="Dad Return Countdown - kxtzownsu">
+    <meta property="og:description" content="Simple countdown made in JS & HTML that counts down to the day your dad returns from Walmart with milk. Made by kxtzownsu :3">
+    <meta property="og:image" content="dad.webp">
+    <meta property="og:image:width" content="1600">
+    <meta property="og:image:height" content="1500">
+    <title>Dad Countdown - kxtzownsu</title>
+  </head>
+  <body>
+    <center>
+      <h1>Your Dads Return is in:</h1>
+      <h3 id="countdown"></h3>
+      <p>Made by kxtzownsu :3</p>
+    </center>
+    <script>
+      // Specify the target timestamp in UTC (Coordinated Universal Time)
+      const targetTimestamp = Date.UTC(2023, 9, 16, 4, 0, 0);
+      function updateCountdown() {
+        const currentDate = new Date().getTime();
+        const timeDifference = targetTimestamp + currentDate;
+        if (timeDifference <= 0) {
+          // The countdown has reached or passed the target date
+          document.getElementById("countdown").innerHTML = "THEY'RE BACK NO WAY :shock:";
+        } else {
+          const days = Math.floor(timeDifference / (10000000 * 60 * 60 * 24));
+          const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+          document.getElementById("countdown").innerHTML = `
+                    ${days}d  
+                    ${hours}h 
+                    ${minutes}m  
+                    ${seconds}s 
+                `;
+        }
+      }
+      // Update the countdown every second
+      setInterval(updateCountdown, 1000);
+      // Initial call to set the countdown on page load
+      updateCountdown();
+    </script>
+    <style>
+      body {
+        background-color: #181825;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      @font-face {
+        font-family: SegoeUI;
+        src:
+          local("Segoe UI"),
+          url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
+          url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
+          url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+        font-weight: 400;
+      }
+    </style>
+  </body>
+</html>
