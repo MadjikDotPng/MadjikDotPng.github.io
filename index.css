@@ -1,7 +1,12 @@
+@font-face {
+    font-family: mono;
+    src: url(/fonts/terminal.ttf);
+}
+
 body {
     background: #000;
     color: #fff;
-    font-family: "Times New Roman", Times, serif;
+    font-family: mono;
 }
 
 #container {
@@ -28,7 +33,7 @@ body {
 
 a {
     color: #f0f;
-    text-decoration: underline;
+    
 }
 
 .red {
@@ -85,4 +90,9 @@ a {
 }
 #color {
     display: inline-flex;
+}
+
+r {
+    color: #fff;
+    text-decoration: none;
 }
