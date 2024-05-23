@@ -3,96 +3,61 @@
     src: url(/fonts/terminal.ttf);
 }
 
+@font-face {
+    font-family: clock;
+    src: url(/fonts/digital-clock.ttf);
+}
+
+@font-face {
+    font-family: pixel;
+    src: url(/fonts/pixel.ttf);
+}
+
+@font-face {
+    font-family: segment;
+    src: url(/fonts/segment.ttf);
+}
+
 body {
+    color: #fff;
     background: #000;
-    color: #fff;
-    font-family: mono;
+    font-family: pixel;
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
-#container {
-    position: absolute;
-    width: 500px;
-    height: 400px;
-    z-index: 15;
-    top: 50%;
-    left: 50%;
-    margin: -100px 0 0 -200px;
+.main {
+    margin-top: 15em;
+}
+
+.clock {
+    display: inline-block;
+    width: 100%;
+}
+
+.clock > p {
+    font-family: clock;
+    font-size: 50px;
+    color: #0f0;
+    background: #000;
+    margin: 0;
+}
+
+.shh {
+    font-family: segment;
+    font-size: 22px;
+    color: red;
+    background-color: #200;
+}
+
+/* #main {
+    text-align: center;
     display: flex;
-    line-height: 0.2;
-}
-
-.info {
-    width: 50%;
-    
-}
-
-.dir {
-    width: 50%;
-    float: left;
-}
-
-a {
-    color: #f0f;
-    
-}
-
-.red {
-    background-color: #f00;
-}
-.green {
-    background-color: #0f0;
-}
-.blue {
-    background-color: #00f;
-}
-.cyan {
-    background-color: #0ff;
-}
-.magenta {
-    background-color: #f0f;
-}
-.yellow {
-    background-color: #ff0;
-}
-.dred {
-    background-color: #a00;
-}
-.dgreen {
-    background-color: #0a0;
-}
-.dblue {
-    background-color: #00a;
-}
-.dcyan {
-    background-color: #0aa;
-}
-.dmagenta {
-    background-color: #a0a;
-}
-.dyellow {
-    background-color: #aa0;
-}
-.white {
-    background-color: #fff;
-}
-.dwhite {
-    background-color: #aaa;
-}
-.black {
-    background-color: #000;
-}
-.dblack {
-    background-color: #555;
-}
-#bar {
-    width: 10px;
-    height: 7px;
-}
-#color {
-    display: inline-flex;
-}
-
-r {
-    color: #fff;
-    text-decoration: none;
-}
+    justify-content: center;
+    align-items: center;
+    font-family: mono;
+} */
