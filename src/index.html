@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Under Construction</title>
+        <link rel="shortcut icon" type="image/jpg" href="img/favicon.png"/>
+        <link href="index.css" rel="stylesheet">
+        <script>
+            var i = 0;
+            var txt = 'Welcome to Madjikware';
+            var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+            function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("type").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+            }
+        </script>
+    </head>
+
+    <body onload="typeWriter()">
+            <p id="type" class="type"></p>
+            <br>
+            <div class="box">
+                <div class="left">
+                    <p>My Stuff</p>
+                    <a onclick="music()">Music</a>
+                    <br>
+                    <a href="https://github.com/MadjikDotPng">Projects</a>
+                </div>
+    
+                <div class="right">
+                    <p>Old Stuff</p>
+                    <a href="/m/">Old Music</a>
+                    <br>
+                    <a href="/g/">Goodies</a>
+                    <br>
+                    <a href="/d/">Documents</a>
+                    <br>
+                    <a href="/p/">Projects</a>
+                </div>
+            </div>
+        <br>
+        <div id="app" style="height: 100vh;">
+        </div>
+
+        <script src="https://unpkg.com/webamp@1.4.2/built/webamp.bundle.min.js"></script>
+        <script>
+        const Webamp = window.Webamp;
+        function music() {
+        const webamp = new Webamp({
+        initialSkin:{
+            url: "/wsz/sony.wsz",
+          },
+            initialTracks: [
+            {
+                metaData: {
+                artist: "Melchior",
+                title: "Savannah",
+                },
+                url: "/music/Savannah.wav",
+            },
+            {
+                metaData: {
+                artist: "Melchior",
+                title: "Verona",
+                },
+                url: "/music/Verona.wav",
+            },
+            {
+                metaData: {
+                title: "Rolling down the street, in my Carolla",
+                artist: "Melchior",
+                },
+                url: "/music/RDTS.wav",
+            },
+            {
+                metaData: {
+                title: "Kowasu 2",
+                artist: "Melchior",
+                },
+                url: "/music/Kowasu2.wav",
+            },
+            {
+                metaData: {
+                title: "Extend my lost soul.",
+                artist: "Melchior",
+                },
+                url: "/music/Extend.mp3",
+            },
+            ],
+            
+            __initialWindowLayout: {
+                main: { position: { x: 0, y: 0 } },
+                equalizer: { position: { x: 0, y: 116 } },
+                playlist: { position: { x: 0, y: 232 }, size: [0, 4] },
+            },
+        });
+        webamp.renderWhenReady(document.getElementById("app"));
+    }
+        </script>
+    </body>
+</html>

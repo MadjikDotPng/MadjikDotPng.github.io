@@ -1,0 +1,38 @@
+@font-face {
+    font-family: mono;
+    src: url(/fonts/terminal.ttf);
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: mono;
+    font-size: 16px;
+}
+
+#container {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -250px;
+    display: flex;
+    line-height: 0.2;
+}
+
+.info {
+    width: 50%;
+    
+}
+
+.dir {
+    width: 50%;
+    float: left;
+}
+
+a {
+    color: #00f;
+    text-decoration: underline;
+}

@@ -1,0 +1,98 @@
+@font-face {
+    font-family: mono;
+    src: url(/fonts/terminal.ttf);
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: mono;
+}
+
+#container {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -200px;
+    display: flex;
+    line-height: 0.2;
+}
+
+.info {
+    width: 50%;
+    
+}
+
+.dir {
+    width: 50%;
+    float: left;
+}
+
+a {
+    color: #f0f;
+    
+}
+
+.red {
+    background-color: #f00;
+}
+.green {
+    background-color: #0f0;
+}
+.blue {
+    background-color: #00f;
+}
+.cyan {
+    background-color: #0ff;
+}
+.magenta {
+    background-color: #f0f;
+}
+.yellow {
+    background-color: #ff0;
+}
+.dred {
+    background-color: #a00;
+}
+.dgreen {
+    background-color: #0a0;
+}
+.dblue {
+    background-color: #00a;
+}
+.dcyan {
+    background-color: #0aa;
+}
+.dmagenta {
+    background-color: #a0a;
+}
+.dyellow {
+    background-color: #aa0;
+}
+.white {
+    background-color: #fff;
+}
+.dwhite {
+    background-color: #aaa;
+}
+.black {
+    background-color: #000;
+}
+.dblack {
+    background-color: #555;
+}
+#bar {
+    width: 10px;
+    height: 7px;
+}
+#color {
+    display: inline-flex;
+}
+
+r {
+    color: #fff;
+    text-decoration: none;
+}

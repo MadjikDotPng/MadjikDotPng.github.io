@@ -1,0 +1,32 @@
+@font-face {
+    font-family: mono;
+    src: url(/fonts/mono.ttf);
+}
+
+body {
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+    font-family: mono;
+    color: white;
+}
+
+.title {
+    margin: none !important;
+}
+
+.container {
+    border: 5px solid red;
+    background-color: black;
+    margin: auto;
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.sub {
+    font-size: 6px;
+}

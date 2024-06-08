@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>sitename</title>
+        <link rel="shortcut icon" type="image/jpg" href="favicongoeshere"/>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div id="container">
+            <div class="info">
+                <h3>header</h3>
+                <p>Lorum ipsum</p>
+                <p>Door shit imet</p>
+                <p>&nbsp;</p>
+                <p>lol</p>
+                <p>i love kissing boys</p>
+                <p>hehe</p>
+                <!-- UNCOMMENT IF THIS IS A DIR <a href="/">(Return)</a> -->
+                
+            </div>
+
+            <div class="dir">
+                <p>Last Updated: 6/9/84</p>
+                <br>
+                <p><a href="/exampledir1">/exampledir1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(C:)</p>
+                <p><a href="/exampledir2">/exampledir2</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(D:)</p>
+                <p><a href="/exampledir3">/exampledir3</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(E:)</p>
+                <p><a href="https://github.com/MadjikDotPng">example1.lnk</a></p>
+                <p><a href="https://github.com/MadjikDotPng">example2.lnk</a></p>
+                <p><a href="https://github.com/MadjikDotPng">example3.lnk</a></p>
+            </div>
+
+        </div>
+    </body>
+</html>

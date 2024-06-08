@@ -1,0 +1,79 @@
+@font-face {
+    font-family: mono;
+    src: url(/fonts/terminal.ttf);
+}
+
+@font-face {
+    font-family: clock;
+    src: url(/fonts/digital-clock.ttf);
+}
+
+@font-face {
+    font-family: pixel;
+    src: url(/fonts/pixel.ttf);
+}
+
+@font-face {
+    font-family: segment;
+    src: url(/fonts/segment.ttf);
+}
+
+body {
+    color: #fff;
+    background: #000;
+    font-family: pixel;
+    overflow: hidden;
+    text-align: center;
+}
+
+.type {
+    margin-top: 12em;
+}
+
+a {
+    text-decoration: none;
+    color: #aaa;
+    transition: .3s;
+}
+
+a:hover {
+    text-decoration: none;
+    background: #fff;
+    color: #333;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.about {
+    margin-top: 10em;
+}
+
+.box {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.right {
+    float:right;
+    text-align: right;
+    width: 10vw;
+}
+
+.left {
+    float: left;
+    text-align: left;
+    width: 10vw;
+}
+
+
+/* #main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: mono;
+} */
